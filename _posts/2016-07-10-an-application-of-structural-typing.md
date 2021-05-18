@@ -38,10 +38,14 @@ Consider the following, vastly simplified messages:
 ### Extract
 A very convenient way of working with (unknown to the programmer) data in F# are so-called type providers.
 
-<blockquote class="blockquote text-right">
-<p class="mb-0">An F# type provider is a component that provides types, properties, and methods for use in your program.</p>
-<footer class="blockquote-footer"><a href="https://docs.microsoft.com/en-us/dotnet/fsharp/tutorials/type-providers/" title="Microsoft Docs">F# docs</a></footer>
-</blockquote>
+<figure class="text-end">
+  <blockquote class="blockquote">
+    <p>An F# type provider is a component that provides types, properties, and methods for use in your program.</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    <a href="https://docs.microsoft.com/en-us/dotnet/fsharp/tutorials/type-providers/" title="Microsoft Docs">F# docs</a>
+  </figcaption>
+</figure>
 
 The [XMLProvider](https://fsharp.github.io/FSharp.Data/library/XmlProvider.html) is configurable with a list of messages:
 {% highlight fsharp %}

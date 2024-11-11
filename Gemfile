@@ -2,4 +2,6 @@ source 'https://rubygems.org'
 
 gem 'jekyll-sitemap'
 gem 'jekyll-feed'
+gem 'base64'
+gem 'csv'
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?

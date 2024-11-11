@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/vscode/devcontainers/ruby:0-2
+FROM mcr.microsoft.com/vscode/devcontainers/ruby:1.1.8-3.3-bookworm
 
 ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \

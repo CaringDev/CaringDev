@@ -1,23 +1,13 @@
 {
-	"name": "Jekyll (Community)",
-	"build": {
-		"dockerfile": "Dockerfile"
-	},
-
-	"settings": { 
-		"terminal.integrated.shell.linux": "/bin/bash"
-	},
-
-	"extensions": [],
-
-	"forwardPorts": [
-		// Jekyll server
-		4000,
-		// Live reload server
-		35729
-	],
-
-	"postCreateCommand": "bundle install",
-
-	"remoteUser": "vscode"
+  "name": "Jekyll (Community)",
+  "build": { "dockerfile": "Dockerfile" },
+  "customizations": {
+    "vscode": { "settings": { "terminal.integrated.shell.linux": "/bin/bash" } }
+  },
+  "forwardPorts": [
+    4000, // Jekyll server
+    35729 // Live reload server
+  ],
+  "postCreateCommand": "bundle install",
+  "remoteUser": "root"
 }
